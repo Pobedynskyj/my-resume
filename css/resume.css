@@ -1,8 +1,8 @@
 /* root */
 
-:root {
-  --main-font: "Heebo", sans-serif;
-}
+/* Heebo */
+/* color: #00363a; - font-color */
+/* second color #e0f7fa */
 
 h1,
 h2,
@@ -18,8 +18,17 @@ ul {
   list-style: none;
 }
 
+a {
+  color: #00363a;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
 .container {
-  width: 90vw;
+  width: 70vw;
   left: 0;
   right: 0;
   margin: auto;
@@ -30,6 +39,7 @@ ul {
   display: flex;
   align-items: center;
   background: linear-gradient(90deg, rgb(152, 207, 195) 9%, rgb(86, 181, 184));
+  padding-left: 30px;
 }
 
 .photo {
@@ -42,19 +52,47 @@ ul {
 .name {
   font-family: "Heebo";
   font-size: 40px;
+  color: #00363a;
 }
 
 .profession {
   font-family: "Heebo";
   font-size: 20px;
+  color: #00363a;
 }
 .name-pos {
   margin: auto;
   border: 0.5px solid;
   border: none;
   padding: 5px;
+  border-left: 1px solid white;
 }
 
-.name-pos:hover {
-  box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2) inset;
+.contacts-item {
+  font-style: none;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.contacts-item {
+  color: black;
+  font-family: "Heebo";
+  color: #00363a;
+}
+/* Main-section */
+
+.main-title,
+.about-me {
+  font-family: "Heebo";
+  color: #00363a;
+}
+
+.main-container {
+  margin-top: 25px;
+}
+
+.my-projects {
+  background-color: #e0f7fa;
 }
