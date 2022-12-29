@@ -1,0 +1,60 @@
+/* root */
+
+:root {
+  --main-font: "Heebo", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90vw;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* header-section */
+.header-container {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(152, 207, 195) 9%, rgb(86, 181, 184));
+}
+
+.photo {
+  border: 1px solid grey;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px grey;
+  margin: 5px;
+}
+
+.name {
+  font-family: "Heebo";
+  font-size: 40px;
+}
+
+.profession {
+  font-family: "Heebo";
+  font-size: 20px;
+}
+.name-pos {
+  margin: auto;
+  border: 0.5px solid;
+  border: none;
+  padding: 5px;
+}
+
+.name-pos:hover {
+  box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2) inset;
+}
